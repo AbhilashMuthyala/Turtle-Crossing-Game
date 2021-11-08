@@ -20,7 +20,7 @@ class Scoreboard(Turtle):
         self.write(f" LEVEL: {level} ", move=False, align='center',font=('Courier', 20, 'normal'))
 
     def gameover(self):
-        self.clear()
+        #self.clear()
         self.goto(0,0)
         self.write(f" GAMEOVER ", move=False, align='center',font=('Courier', 20, 'normal'))
 
